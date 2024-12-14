@@ -11,3 +11,6 @@ Note: To build your CNN model, please use TensorFlow (integrated with Keras). Ke
 
 
 the project files we used is in the cloud: https://pan.baidu.com/s/1qTQvRXF-_iGD3T_QK_DtwQ?pwd=y94s  password: y94s
+
+
+I post this new project on : https://medium.com/@dyang3/hello-i-have-create-a-project-we-are-going-to-build-up-a-convolutional-neural-network-cnn-to-be-9b5607d4461c
