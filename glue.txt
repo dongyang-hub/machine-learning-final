@@ -1,0 +1,8 @@
+"spark.jars.packages": "software.amazon.awssdk:glue:2.24.9,software.amazon.awssdk:sts:2.24.9,software.amazon.awssdk:s3:2.24.9,software.amazon.awssdk:dynamodb:2.24.9,software.amazon.awssdk:kms:2.24.9,org.apache.iceberg:iceberg-spark-runtime-3.5_2.12:1.6.1",
+"spark.sql.extensions": "org.apache.iceberg.spark.extensions.IcebergSparkSessionExtensions",
+"spark.sql.catalog.glue": "org.apache.iceberg.spark.SparkCatalog",
+"spark.sql.catalog.glue.warehouse": "glue",
+"spark.sql.catalog.glue.catalog-impl": "org.apache.iceberg.aws.glue.GlueCatalog",
+"spark.sql.catalog.glue.io-impl": "org.apache.iceberg.hadoop.HadoopFileIO",
+"spark.sql.catalog.glue.cache-enabled": "true",
+"spark.sql.catalog.glue.cache.expiration-interval-ms": "60000"
